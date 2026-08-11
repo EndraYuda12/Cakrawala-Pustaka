@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f1f8;
+  margin: 0;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: #16324f;
+  margin-bottom: 30px;
+}
+h2{
+  text-align: center;
+}
+.container {
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.container img {
+  padding: 10px ;
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  display: block;
+}
+.deskripsi {
+  padding: 15px;
+}
+
+.deskripsi h2 {
+  margin: 0 0 10px;
+  color: #16324f;
+}
+
+.deskripsi p {
+  color: #555;
+  line-height: 1.5;
+}
+.daftar-buku {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
